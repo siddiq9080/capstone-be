@@ -15,7 +15,7 @@ const server = express();
 
 server.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://delicate-hamster-c45eef.netlify.app",
     credentials: true,
   })
 );
